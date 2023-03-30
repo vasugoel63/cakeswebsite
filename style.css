@@ -1,0 +1,859 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700'); */
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap'); */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Pangolin', cursive;
+}
+.main-header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    /* font-family: 'Pangolin', cursive; */
+    /* position: relative; */
+    /* position: relative; */
+    font-family: 'Pangolin', cursive;
+}
+.header-first{
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-head{
+    font-family: 'Pangolin', cursive;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+
+
+.header-svg{
+   background: url("https://megaone.acrothemes.com/cakes/img/header-svg.svg");
+   position: absolute;
+   background-repeat: repeat-x;
+   /* position: absolute; */
+   bottom: -30px;
+   height: 60px;
+   left: -25px;
+   right: 0;
+   z-index: 2;
+}
+
+
+.navbar ul{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+.navbar ul li a:hover{
+    color: coral;
+}
+
+.header-icon i{
+    color: black;
+    font-size: 28px;
+
+}
+
+
+.first-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio1.jpg");
+    min-height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+    background-attachment: fixed
+}
+
+.first-section-data{
+ 
+    color: white;
+    width: 75%;
+
+}
+.first-section-data p{
+font-family: 'Roboto';
+font-weight: 300;
+}
+
+.first-section-data h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.learnBtn{
+background: none;
+padding: 10px 30px;
+margin-top: 20px;
+color: white;
+border: 2px solid white;
+border-radius: 19px;
+}
+
+.learnBtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.second-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio2.jpg");
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+.second-section-data{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    
+     justify-content: flex-end;
+     padding: 40px 0;
+}
+
+
+.second-cards{
+    display: flex;
+}
+.card{
+    width: 90%;
+    /* height: 200px; */
+    border: 2px solid #ef7474;
+    padding: 14px;
+    margin-bottom: 29px;
+    border-radius: 10px;
+    color: white;
+    line-height: 25px;
+    transition: background-color 1s ease-in;
+
+}
+.card-logo{
+    /* height: 50px;
+    width: 50px; */
+    /* background-color: coral; */
+    /* border-radius: 50%; */
+    /* 
+    text-align: center; */
+}
+.card-logo i{
+    background-color: #ef7474;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.card:hover{
+    background-color: #ef7474;
+    cursor: pointer;
+}
+.card:hover i{
+    background-color: white;
+    color: #ef7474;
+}
+
+.card-row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.card-row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.third-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: fixed;
+}
+.third-section-content{
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    padding: 40px 0;
+}
+
+
+
+.container{
+    text-align: center;
+}
+
+.container p{
+    opacity: 0.7;
+}
+
+  .container .percent-card{
+    position: relative;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.percentage-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.container .percent-card .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    /* background-color: rgb(48, 48, 48); */
+    transform: rotate(180deg);
+}
+.container .percent-ard .percent svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+}
+.container .percent-card .percent svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 8;
+    stroke:rgb(158, 157, 157);
+    transform: translate(5px, 5px);
+}
+
+.container .percent-card .percent-1 svg circle:nth-child(2){
+    stroke: white;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc( 440 - (440 * (257 / 360)));
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1s;
+}
+.container .percent-card .percent-2 svg circle:nth-child(2){
+    stroke: white;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * (96/ 100)));
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1s;
+}
+.container .percent-card .percent-3 svg circle:nth-child(2){
+    stroke: white;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * (317/ 360)));
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes fadeIn{
+    0%
+    {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.number{
+    position: absolute;
+}
+
+
+
+.forth-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+
+}
+.forth-section-content{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    flex-direction: column;
+}
+
+/* .forth-section-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+} */
+.s-cards-row-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.s-card{
+    background:none;
+    color: white;
+    height: 180px;
+    width: 180px;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 50%;
+    /* transition: background-color 2s ease-in; */
+    /* -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out; */
+    transition: background-color 1s linear;
+}
+.s-card i{
+    font-size: 35px;
+    padding-bottom: 12px;
+}
+
+.s-cards-row-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 87px
+}
+
+.s-card:hover{
+    background-color: white;
+    color: black;
+}
+
+.s-card .percent-head{
+    font-family: 'Pangolin', cursive;
+    font-size: 25px;
+}
+
+.fifth-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio1.jpg");
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.fifth-section-data{
+    width: 80% ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.fifth-section-data p{
+    line-height: 30px;
+    width: 425px;
+    font-weight: 200;
+    font-family: 'Montserrat';
+    padding-bottom: 20px;
+}
+
+.launchBtn{
+    /* color: black; */
+    background: none;
+padding: 10px 30px;
+margin-top: 20px;
+color: black;
+border: 2px solid black;
+border-radius: 19px;
+}
+
+.launchBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* sixth section */
+.sixth-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio6.jpg");
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.sixth-section-data{
+    width: 70%;
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+    align-items: flex-end;
+}
+.sixth-price-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sixth-column{
+    display: flex;
+    flex-direction: row;
+}
+
+.stdHeading{
+    border-bottom: 2px dotted white;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.chooseBtn{
+    margin-top: 20px;
+    border: 2px solid white;
+    background: none;
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.chooseBtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.sixth-row-1 , .sixth-row-2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.sixth-row-1{
+    border-right: 2px dotted white;
+}
+
+.sixth-row-1 , .sixth-row-2{
+    line-height: 30px;
+}
+.sixth-row-1 #charge , .sixth-row-2 #charge{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Pangolin', cursive;
+}
+
+
+
+/* seventh-section */
+.seventh-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio7.jpg");
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.seventh-section-data{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* .review-card-content{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    flex-direction: column;
+} */
+
+.review-card{
+    background-color: white;
+    /* width: 350px; */
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    width: 50%;
+}
+.user-img {
+    position: absolute;
+    bottom: -125px;
+    LEFT: 217px;
+    border-radius: 50%;
+  
+
+}
+.user-img p{
+    color: white;
+}
+
+.user-img img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.eight-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio8.jpg");
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: white;
+     background-attachment: fixed;
+}
+
+.eight-section-data{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.form-data{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    font-family:  'Montserrat', sans-serif;
+}
+.form-data p{
+    line-height: 25px;
+}
+
+.form-data form{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form-data form>input , .form-data form>textarea{
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.form-data form>input::placeholder{
+    color: white;
+}
+.form-data form>textarea::placeholder{
+    color: white;
+}
+.form-data form>textarea{
+    grid-column: 1/ span 2;
+    height: 200px;
+    resize: none;
+}
+
+.form-data form #submitBtn{
+    grid-column: 1/ span 2;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.form-data form #submitBtn:hover{
+    cursor: pointer;
+    background-color: #ef7474;
+    color: white;
+}
+
+.form-data form>input:focus , .form-data form>textarea:focus{
+    outline: none;
+}
+
+.ninth-section{
+    background-image: url("https://megaone.acrothemes.com/cakes/img/single-portfolio9.jpg");
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: white;
+     background-attachment: fixed;
+}
+.ninth-section-data{
+    display: flex;
+    width: 70%;
+    font-family:  'Montserrat', sans-serif;
+
+
+}
+.ninth-section-data p{
+    line-height: 25px;
+}
+.ninth-section-data .icons{
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.ninth-section-data .icon{
+    color: white;
+    width: 50px;
+    height: 50px;
+    background:none;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 1s ease-out;
+    /* transition: border-radius 1s ease-out;  */
+
+}
+.ninth-section-data .icon:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+}
+.footer-svg{
+    position: absolute;
+    background: url(https://megaone.acrothemes.com/cakes/img/footer-svg.svg);
+    background-repeat: repeat-x;
+    z-index: 2;
+    /* bottom: 217px; */
+    height: 60px;
+    width: 100%;
+    transform: rotate(180deg);
+    right: 88px;
+    top: -29px;
+    left: 0;
+}
+
+.main-footer{
+    position: relative;
+    background-color: #ef7474;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px;
+
+}
+.footer-img img{
+    width: 80px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    background: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+.footer-icon:hover{
+    background-color: black;
+}
+
+.footer-text{
+font-family: 'Roboto', sans-serif;
+font-weight: 300px;
+text-align: center;
+}
+
+
+@media screen and (max-width: 1024px){
+    .navbar{
+        display: none;
+    }
+   
+    .third-section-content {
+        align-items: center;
+        padding: 70px 0;
+    }
+    .percentage-container{
+        flex-direction: column;
+    }
+    .card-row1 {
+        align-items: flex-start;
+        margin-right: 29px;
+    }
+    .card{
+        width: 280px;
+    }
+    .user-img{
+        LEFT: 123px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .second-section-data{
+        justify-content: center;
+    }
+    .second-cards{
+        flex-direction: column;
+        padding: 42px 0px;
+    }
+    .third-section-content {
+        /* align-items: center; */
+        padding: 40px 0px;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-row1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0px;
+    }
+    .user-img{
+        LEFT: 73px;
+    }
+}
+
+@media screen and (max-width: 430px){
+
+
+.fifth-section-data p {
+    width: 90%;
+}
+.sixth-column {
+    /* display: flex; */
+    flex-direction: column;
+}
+.sixth-price-section {
+    padding: 50px 0px
+}
+.sixth-row-1{
+    border: none;
+}
+.eight-section-data {
+    width: 90%;
+    justify-content: center;
+
+}
+
+.form-data{
+    align-items: center;
+}
+.form-data form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+}
+.forth-section-content{
+    align-items: center;
+}
+.s-cards-row-1{
+    flex-direction: column;
+}
+.s-cards-row-2{
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.seventh-section {
+padding-bottom: 130px;
+}
+.first-section-data ,.fifth-section-data,.seventh-section-data , .eight-section-data , .ninth-section-data{
+    padding: 40px 0px;
+}
+.review-card {
+    width: 100%;    
+}
+}
+@media  screen and (max-width: 400px) {
+    .ninth-section-data{
+        align-items: center;
+        justify-content: center;
+        }
+
+    /* .user-img{
+        bottom: -136px;
+        left: 75px;
+        border-radius: 50%;
+        } */
+        .footer-icon {
+            width: 40px;
+            height: 40px;
+        }
+    
+}
+@media  screen and (max-width: 320px){
+    .user-img{
+        LEFT: 60px;
+    }
+}
